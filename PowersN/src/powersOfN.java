@@ -50,7 +50,8 @@ public class powersOfN {
 			
 			/* Because we want to print each number in the sequence, we print 
 			 * the Math.pow base with loop iteration in the exponent parameter
-			 * for the Math.pow function.
+			 * for the Math.pow function. To fit display requirements, we cast
+			 * the Math.pow as an integer.
 			 */
 			System.out.print((int)Math.pow(base, i) + " ");
 			
